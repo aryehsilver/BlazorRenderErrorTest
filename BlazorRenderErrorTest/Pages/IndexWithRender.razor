@@ -7,7 +7,7 @@
         <p>
           <label>
             Person list
-            <InputSelect @bind-Value="PersonId">
+            <InputSelect @bind-Value="PersonId" class="form-control">
               @foreach (Person person in People) {
                 <option value="@person.Id">@person.Name</option>
               }
@@ -18,14 +18,14 @@
         <p>
           <label>
             Person name
-            <InputText @bind-Value="Person.Name" />
+            <InputText @bind-Value="Person.Name" class="form-control" />
           </label>
         </p>
 
         <p>
           <label>
             Person tel
-            <InputNumber @bind-Value="Person.Tel" />
+            <InputNumber @bind-Value="Person.Tel" class="form-control" />
           </label>
         </p>
       </div>
