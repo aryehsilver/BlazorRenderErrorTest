@@ -1,5 +1,5 @@
 ﻿<div class="top-row pl-4 navbar navbar-dark">
-  <a class="navbar-brand" href="">BlazorRenderErrorTest</a>
+  <a class="navbar-brand" href="">Blazor Render Error Test</a>
   <button class="navbar-toggler" @onclick="ToggleNavMenu">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -9,7 +9,12 @@
   <ul class="nav flex-column">
     <li class="nav-item px-3">
       <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-        <span class="oi oi-home" aria-hidden="true"></span> Home
+        <span class="oi oi-list" aria-hidden="true"></span> Error
+      </NavLink>
+    </li>
+    <li class="nav-item px-3">
+      <NavLink class="nav-link" href="render">
+        <span class="oi oi-reload" aria-hidden="true"></span> With Render
       </NavLink>
     </li>
   </ul>
