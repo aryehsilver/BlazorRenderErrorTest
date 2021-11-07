@@ -11,6 +11,7 @@ namespace BlazorRenderErrorTest.Pages {
     private Person Person;
     private List<Person> People = new();
     private int PersonId;
+
     protected override async Task OnInitializedAsync() {
       using (AppDbContext context = new()) {
         context.Database.Migrate();
