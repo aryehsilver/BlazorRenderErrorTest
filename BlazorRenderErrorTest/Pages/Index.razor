@@ -1,0 +1,32 @@
+﻿@page "/"
+
+<EditForm Model="People">
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        <label>
+          Person list
+          <InputSelect @bind-Value="PersonId">
+            @foreach (Person person in People) {
+              <option value="@person.Id">@person.Name</option>
+            }
+          </InputSelect>
+        </label>
+      </p>
+
+      <p>
+        <label>
+          Person name
+          <InputText @bind-Value="Person.Name" />
+        </label>
+      </p>
+
+      <p>
+        <label>
+          Person tel
+          <InputNumber @bind-Value="Person.Tel" />
+        </label>
+      </p>
+    </div>
+  </div>
+</EditForm>

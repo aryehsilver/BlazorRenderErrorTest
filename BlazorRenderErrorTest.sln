@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorRenderErrorTest", "BlazorRenderErrorTest\BlazorRenderErrorTest.csproj", "{1151181A-0E6A-4590-BFD7-DE0A91F65E2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1151181A-0E6A-4590-BFD7-DE0A91F65E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1151181A-0E6A-4590-BFD7-DE0A91F65E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1151181A-0E6A-4590-BFD7-DE0A91F65E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1151181A-0E6A-4590-BFD7-DE0A91F65E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FEE18A8-1B3A-480A-BF9E-2F92E0C18B7E}
+	EndGlobalSection
+EndGlobal
