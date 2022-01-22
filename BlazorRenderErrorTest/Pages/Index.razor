@@ -1,13 +1,13 @@
 ﻿@page "/"
 
-<EditForm Model="People">
+<EditForm Model="_people">
   <div class="row">
     <div class="col-md-8">
       <p>
         <label>
           Person list
-          <InputSelect @bind-Value="PersonId">
-            @foreach (Person person in People) {
+          <InputSelect @bind-Value="_personId">
+            @foreach (Person person in _people) {
               <option value="@person.Id">@person.Name</option>
             }
           </InputSelect>
